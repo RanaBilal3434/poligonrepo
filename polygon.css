@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    background-color: navy;
+}
+p{
+    background-color: aqua;
+    width:450px;
+    margin:3px;
+    float: left;
+
+}
+div{
+    background-color: blue;
+    clear: both;
+}
+img{
+    clip-path: polygon(500px 500px,700px 500px,700px 1000px,500px 1000px );
+    position: relative;
+    margin-top: -480px;
+    margin-left: -430px;
+}

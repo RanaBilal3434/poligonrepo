@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(250, 255, 255);
+}
+.atom{ 
+    height: 17vh;
+    width: 86vw;
+    background-color: aqua;
+    color: red;
+    font-size: 25px;
+    border:lightblue solid 15px ;
+    margin:2em;
+    padding: 1em;
+    border-radius: 25px ;
+}
+.explosion{
+    background-color: rgb(50, 250, 250);
+    color: #0000ff;
+     font-size: 2rem;
+    border-style:groove;
+    border-top-style: double ;
+    border-left-style: dotted;
+    border-right-style:outset ;
+    border-color: black;
+    border-top-color:gray;
+    border-left-color:rgb(8, 251, 4);
+    border-width: 1.3em;
+    border-right-width: 8px;
+    border-bottom-width: 40px;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 80px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius:80px ;
+    outline: 0.6em solid blue;
+    outline-offset: 0.5em;
+
+}

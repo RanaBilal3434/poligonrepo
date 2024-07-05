@@ -1,0 +1,29 @@
+.d{
+    color:red;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px rgb(14, 14, 14);
+}
+.atom{
+    border:2px solid black;
+    height: 100px;
+    width:300px;
+    overflow: auto;
+    color:rgb(225, 23, 225);
+    text-align: center; 
+    text-decoration:wavy underline rgba(228, 235, 171, 0.944) ;
+}
+.explosion{
+    height: 100px;
+    width:300px;
+    overflow: scroll;
+    color:blueviolet;
+    text-align: start;
+    text-decoration-line: overline;
+    text-decoration-color:red ;
+}
+.bom{
+    text-align: end;
+    font-size: 20px;
+    text-decoration-line:line-through ;
+    color:red;
+}

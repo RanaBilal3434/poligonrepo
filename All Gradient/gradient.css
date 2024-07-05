@@ -1,0 +1,58 @@
+body{
+    background-image:url(door.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    background-attachment:fixed;
+    background-color:darkolivegreen;
+}
+
+.box{
+    height:230px;
+    width: 230px;
+    border: 2px solid rgb(222, 7, 189);
+    float:left;
+    border-radius:50%;
+    margin: 5px;
+}
+.box1{
+    background-image:linear-gradient( blue, green, yellow,red);
+}
+.box2{
+    background-image:linear-gradient(225deg, blue, green , yellow,red);
+}
+.box3{
+    background-image:repeating-linear-gradient(to left, blue 80%, green, yellow,red);
+}
+.box4{
+    background-image:radial-gradient( blue ,green ,yellow,red);
+}
+.box5{
+    background-image:repeating-radial-gradient( blue ,green ,yellow,red);
+}
+.box6{
+    background-image: conic-gradient(blue, green, yellow, red);
+}
+.box7{
+    background-image:conic-gradient(from 45deg, blue, green, yellow, red);
+}
+.box8{
+    background-image:conic-gradient( blue, green, yellow, red, blue);
+}
+.box9{
+    background-image:conic-gradient( blue 0deg,blue 90deg, green 90deg,green 200deg, yellow 200deg,yellow 300deg, red);
+}
+.box10{
+    background-image:conic-gradient( rgba(0, 0, 255, 0.211) , rgba(0, 128, 0, 0.228), yellow , red );
+    background-size: 30% 30%;
+}
+.box11{
+    background-image:conic-gradient(from 45deg,rgba(0, 0, 255, 0.212) 150deg, yellow 250, red );
+}
+
+
+
+
+
+
+

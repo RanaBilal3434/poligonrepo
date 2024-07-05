@@ -1,0 +1,92 @@
+body{
+  background-image:linear-gradient(90deg, purple, gold, green) ;
+
+}
+.box{ 
+    width:350px;
+    height:350px;
+    background-color: deeppink;
+    border:rgb(62, 72, 68) dashed 2px;
+    outline: 5px dashed black;
+    box-shadow:8px 8px 8px rgb(7, 7, 7);
+    border-radius:50%;
+    animation-name:demo;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+@keyframes demo{
+  0%  {width: 200px; height: 200px; background-color: red;}
+  25% {width: 250px; height: 250px; background-color:  yellow;}
+  50%  {width: 300px; height: 300px; background-color: blue;}
+  75%  {width: 350px; height: 350px; background-color: purple;}
+  100%  {width: 400px; height: 400px; background-color: rgb(25, 253, 4);}
+  
+}
+
+.box11{
+  position: relative;
+  left: 300px;
+  background-image:conic-gradient( rgba(0, 0, 255, 0.211) , rgba(0, 128, 0, 0.228), yellow , red );
+}
+#box1{
+  position:fixed;
+  left:200px;
+  background-image:linear-gradient( blue, green, yellow,red);
+}
+.box2{
+  position: sticky;
+  top:50px;
+  background-image:linear-gradient(225deg, blue, green , yellow,red);
+}
+.box3{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  background-image:repeating-linear-gradient(to left, blue 80%, green, yellow,red);
+}
+.box4{
+  position: sticky;
+  top: 100px;
+  left: 400px;
+  background-image:radial-gradient( blue ,green ,yellow,red);
+  animation-name:xyz;
+  animation-delay:5s;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+}
+@keyframes xyz{
+  20% {background-color: blue;}
+  0% {background-color: lightgreen;}
+  40% {background-color: brown;}
+  60% {background-color: aqua;}
+  100% {background-color: yellow;}
+}
+.box5{
+  position: relative;
+  left: 200px;
+  top:100px;
+  background-image:repeating-radial-gradient( black ,rgb(48, 250, 48) ,yellow,red 1%);
+}
+#cli{
+  height: 400px; width:400px;
+  border-radius: 45%;
+  background-position: center;
+  background-image: conic-gradient(blue, green, yellow, red);
+}
+.box7{
+  background-image:conic-gradient(from 45deg, blue, green, yellow, red);
+}
+.box8{
+  position: static;
+  right:150px;
+  background-image:conic-gradient( blue, green, yellow, red, blue);
+  background-size: 30% 30%;
+}
+.box9{
+  background-image:conic-gradient( blue 0deg,blue 90deg, green 90deg,green 200deg, yellow 200deg,yellow 300deg, red);
+  background-size: 30% 30%;
+}

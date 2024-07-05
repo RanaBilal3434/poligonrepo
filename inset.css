@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+img{
+    clip-path:inset(280px 400px 90px 400px);
+    float: left;
+}
+img{
+    margin-top: -277px;
+    margin-left: -397px;
+}

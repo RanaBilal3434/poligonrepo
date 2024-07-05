@@ -1,0 +1,42 @@
+body {
+    background-image: url(door.jpg);
+    background-size: cover;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 20px;
+    border-radius: 50%;
+}
+#box5{
+    height: 250px;
+    width: 250px;
+    border: 4px dashed green;
+    border-radius: 40%;
+}
+.box1 {
+    background-image: conic-gradient(red, yellow, green, blue);
+}
+.box2 {
+    background-image: conic-gradient(from 45deg, red, yellow, green, blue);
+}
+.box3 {
+    background-image: conic-gradient( red, yellow, green, blue, red);
+}
+.box4 {
+    background-image: repeating-conic-gradient(red 0deg, red 10deg, yellow 10deg, yellow 20deg, blue 20deg, blue 30deg);
+} 
+#box5 {
+    background-image: repeating-conic-gradient(yellow 0deg, yellow 90deg, green 90deg, green 180deg);
+}
+.box6 {
+    background-image: repeating-conic-gradient( yellow 0deg, yellow 10deg, green 10deg, green 20deg);
+    background-size: 33% 50px;  
+}
+.box7 {
+    background-image: conic-gradient(from 45deg, yellow 0deg, yellow 90deg, green 90deg, green 180deg, red 180deg, red 270deg, blue 270deg,blue 360deg);
+}
+.box8 {
+    background-image: conic-gradient( rgb(255, 0, 0) 0deg, rgb(0, 42, 255) 90deg, rgba(0, 245, 0, 0.644) 90deg, rgba(255,0,0,0.5) 180deg, rgb(229, 255, 0) 180deg, rgba(255, 0, 0, 0.568) 270deg, rgb(17, 255, 0) 270deg,rgba(18, 18, 220, 0.42) 360deg);
+}

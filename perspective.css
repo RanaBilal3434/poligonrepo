@@ -1,0 +1,22 @@
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    perspective: 800px;
+    transform: rotateY(-45deg) ;
+    transform-style:preserve-3d ;
+    perspective-origin: 100px 500px;
+}
+.bass{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    position: absolute;
+    transform: rotateY(45deg);
+
+}

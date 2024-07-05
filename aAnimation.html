@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        color: aliceblue;
+        font-size: large;
+        animation-name:ani ;
+        animation-delay:1s;
+        animation-duration:5s;
+        animation-timing-function: linear;
+        animation-iteration-count:infinite ;
+        animation-direction:alternate;
+    }       
+    div{
+        background-image:linear-gradient(45deg,purple,gold) ;
+    }
+    @keyframes ani{
+        0%{height: 200px; width:200px; border: 1px solid gray;}
+        50%{height: 250px; width: 300px; background-color:black; border: 8px solid gray; font-size: x-large; color:darkblue;}
+        100%{height: 200px;width: 600px; background-color: brown;  border: 8px dashed black;font-size: xx-large;}
+    }
+    </style>
+</head>
+<body>
+    <div>Margin auto and difirent font size and animation and gradient the one div. Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+div{
+    height: 300px;
+    width: 300px;
+    background: gold;
+    float:left;
+    margin:5px;
+}
+
+@media screen and (min-width:600px) and (max-height:800px) {
+    div{
+        background: blue;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:900px) {
+    div{
+        background: red;
+    }
+}
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ul_list</title>
+     <link rel="stylesheet" href="carr.css">
+     <style>
+        body{
+            background-color: rgb(47, 181, 43);
+        }
+        ul li {
+            display: inline;
+            padding: 10px;
+            margin: 2px; 
+            border-radius: 7px 7px 0px 0px;
+            background-color: aqua;
+        
+        }
+        .class2 {
+            padding: 50px;
+        }
+        .class1{
+             background-color: aqua;
+     }
+         #ID-2{
+          background-color:blue;
+     }
+        #ID-2:hover{
+            background-color: yellow;
+        }
+        #ID-1{
+            background-color:red;
+        }
+        #ID-1:hover{
+            background-color: blue;
+        }
+        p{
+            cursor:crosshair ;
+        }
+        div#sizing{
+            width: 900px;
+            height: 170px;
+            border: 10px solid navy;
+            box-sizing: border-box;
+        }
+        #none{
+            height: 50px;
+            width: 1000px;
+            background-color: blue;
+            display: none;
+        }
+        #hide{
+            background-color: yellow;
+            visibility: hidden;
+        }
+        #dis{
+            height: 50px;
+            width: 900px;
+            background-color: chocolate;
+            display:inline-block ;
+        }
+        #resize_horizantal{
+            color: aliceblue;
+            border: 2px solid blue;
+        }
+        </style>
+</head>
+<body style="background-color: red;background-image: url(door.jpg); color:lime; ">
+    <h1 style="cursor: pointer;">Here are the top five selling vahicles for 2022:</h1>
+
+    <ul style="cursor: none;" title="cursor_none">
+        <li>Suzuki Alto.</li>
+        <li>Toyota Corolla.</li>
+        <li>Honda City.</li>
+        <li>Toyota Yaris.</li>
+        <li>Suzuki Wagon R.</li>
+        
+    </ul><div id="sizing">
+    <p title="cursor:crosshair">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div id="none">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, quam.
+    </div>
+    <div id="hide">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, quam.
+    </div>
+     <div id="dis" title="dis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, dolores.</div>
+    <div id="resize_horizontal" title="resize_horizontal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, in!</div>
+    <div id="resize_vartical" title="resize_vartical">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, in!</div>
+    <div id="resize_both" title="both">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, in!</div>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, in!</div>
+    
+     <div>
+    <p style="cursor: all-scroll;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, itaque?</p>        
+    </div>
+     <ul>  
+     <li class="class1">Break Fast</li>
+    <ul class="class2"><li>Tea</li><li>Paratha</li><li>Anda</li></ul>
+    <li class="class1">Lunch</li>
+    <ol class="class2"><li>Lasi</li><li>Chapati</li><li>Salan</li></ol>
+    <li class="class1">Dinner</li>
+
+     </ul>
+    
+    <dl>
+    <dt id="ID-1">BREAK FAST</dt>
+    <dd>beark fast subha k khane ko kehte hain</dd>
+    <dt id="ID-2">LUNCH</dt>
+    <dd>lunch dopehar ke khane ko kehte hain</dd>
+    <dt>DINNER</dt>
+    <dd>
+        <ul>
+            <li>sham</li>
+            
+            <li>dopehar</li>
+        </ul>
+    </dd>
+    </dl>
+
+</body>
+</html>

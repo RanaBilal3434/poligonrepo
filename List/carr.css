@@ -1,0 +1,13 @@
+ul{
+    margin-left: 100px;
+    margin-top: 100px;
+    list-style: url(ccar1.jpg);
+}
+body{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-top: -10px;
+}
